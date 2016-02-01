@@ -19,6 +19,6 @@
     "yosay": "^1.1.0"
   },
   "peerDependencies": {
-    "yeoman-generator": ">= 0.22.5"
+    "yeoman-generator": "^0.22.5"
   }
 }

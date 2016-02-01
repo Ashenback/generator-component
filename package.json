@@ -1,0 +1,21 @@
+{
+  "name": "generator-component",
+  "version": "1.0.0",
+  "description": "Generate skeleton for front-end component.",
+  "files": [
+    "generators/app"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hjalmar Sköldefors",
+  "license": "ISC",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.22.5",
+    "yosay": "^1.1.0"
+  }
+}

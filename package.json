@@ -16,9 +16,7 @@
     "yeoman-generator"
   ],
   "dependencies": {
+    "yeoman-generator": "^0.22.5",
     "yosay": "^1.1.0"
-  },
-  "peerDependencies": {
-    "yeoman-generator": "^0.22.5"
   }
 }

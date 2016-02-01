@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Generate skeleton for front-end component.",
   "files": [
-    "generators/app"
+    "generators/app",
     "generators/component"
   ],
   "main": "index.js",

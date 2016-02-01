@@ -22,7 +22,7 @@ var ComponentGenerator = yeoman.extend({
     ];
 
     this.prompt(prompts, function (props) {
-      this.composeWith("component:component", {options: {'ComponentName': props.ComponentName}});
+      this.composeWith("component", {options: {'ComponentName': props.ComponentName}});
       done();
     }.bind(this));
   },

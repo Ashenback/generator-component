@@ -19,8 +19,6 @@ var ComponentGenerator = yeoman.Base.extend({
     if (this.ComponentName) {
       this.composeWith("component:component", {options: {'ComponentName': this.ComponentName}});
       done();
-      process.exit(0);
-
     } else {
       var prompts = [
         {

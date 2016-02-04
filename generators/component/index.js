@@ -27,9 +27,11 @@ var component = yeoman.extend({
   },
 
   writing: function () {
+    var done = this.async();
     this.template('component.css', this.componentPath + this.ComponentName + '.css', this);
     this.template('component.js', this.componentPath + this.ComponentName + '.js', this);
     this.template('index.js', this.componentPath + 'index.js', this);
+    done();
   },
 
 });
